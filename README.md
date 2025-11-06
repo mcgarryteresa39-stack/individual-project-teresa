@@ -88,7 +88,12 @@ ________________________________________
 📄 License
 MIT License — feel free to modify
 ________________________________________
-📬 Contact
-•	Author: Your Name
-•	Email: your@email.com
-•	GitHub: https://github.com/yourusername
+## 📬 Get in Touch
+
+| 📌 Detail   | 📎 Info                                      |
+|------------|----------------------------------------------|
+| 👤 Author   | *Your Name*                                  |
+| 📧 Email    | [your@email.com](mailto:your@email.com)      |
+| 💻 GitHub   | [github.com/yourusername](https://github.com/yourusername) |
+
+
