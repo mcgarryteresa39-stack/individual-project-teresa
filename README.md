@@ -18,7 +18,6 @@
 Uk Poverty and inequality trends 1969 - 2017 : Insights from the World Bank PIP Dataset
 <img width="397" height="102" alt="image" src="https://github.com/user-attachments/assets/418ce46c-cf9a-4be5-b7ef-1293b7976da0" />
 
-
 ## About the Project
 Explain what your project does, why you built it, and the problem it solves.
 This project analyzes poverty and inequality trends in the United Kingdom between 1967 and 2017 using data from the World Bank’s Poverty and Inequality Platform (PIP). It explores changes in poverty headcount ratios across multiple international poverty lines ($2.15, $3.65, and $6.85 per day), with a particular focus on the upper-middle income threshold, which offers the most relevant benchmark for high-income countries like the UK. By examining long-term shifts in poverty prevalence, income gaps, and inequality indicators, the project highlights how economic restructuring, welfare reforms, and policy choices have shaped deprivation over five decades. The analysis situates UK poverty within a global context and provides a foundation for comparative and policy-relevant insights.
@@ -37,7 +36,8 @@ The PIP dataset provides harmonized poverty and inequality measures across count
 
 The dataset provides consistent time-series data (1967 – present) allowing tracking of decades of poverty dynamics
 
-For the UK this is especially important since extreme poverty (international line) is rare, but relative poverty remains an issue
+For the UK this is especially important since extreme poverty (international line) is rare, but relative poverty remains an issue
+
 In a high-income country like the UK, the upper-middle income poverty line ($6.85/day) is the most appropriate one to review  
 
 The PIP dataset provides harmonized poverty and inequality measures across countries and time. Using it ensures that UK trends can be benchmarked against:
@@ -54,8 +54,8 @@ In a high-income country like the UK, the upper-middle income poverty line ($6.8
 
 _______________________________________
 ## Project Management
-To ensure the success delivery of this project, Trello was used.
-
+To ensure the success delivery of this project, a Trello was created:
+https://trello.com/b/R80xkarD/first-project
 
 
 ## Features
@@ -136,6 +136,7 @@ ________________________________________
 | 👤 Author   | *Your Name*                                  |
 | 📧 Email    | [your@email.com](mailto:your@email.com)      |
 | 💻 GitHub   | [github.com/yourusername](https://github.com/yourusername) |
+
 
 
 
