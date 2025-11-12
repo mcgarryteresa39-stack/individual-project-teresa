@@ -1,4 +1,6 @@
-﻿# individual-project-teresa
+﻿# Project Title
+**UK Poverty and Inequality Trends (1969 - 2017): Insights from the World Bank PIP Dataset**
+<img width="397" height="102" alt="image" src="https://github.com/user-attachments/assets/418ce46c-cf9a-4be5-b7ef-1293b7976da0" />oject-teresa
 
 ## Table of Contents
 - [About the Project](#about-the-project)
@@ -14,12 +16,9 @@
 - [License](#license)
 - [Contact](#contact)
   
-## Project Title
-Uk Poverty and inequality trends 1969 - 2017 : Insights from the World Bank PIP Dataset
-<img width="397" height="102" alt="image" src="https://github.com/user-attachments/assets/418ce46c-cf9a-4be5-b7ef-1293b7976da0" />
+
 
 ## About the Project
-Explain what your project does, why you built it, and the problem it solves.
 This project analyzes poverty and inequality trends in the United Kingdom between 1967 and 2017 using data from the World Bank’s Poverty and Inequality Platform (PIP). It explores changes in poverty headcount ratios across multiple international poverty lines ($2.15, $3.65, and $6.85 per day), with a particular focus on the upper-middle income threshold, which offers the most relevant benchmark for high-income countries like the UK. By examining long-term shifts in poverty prevalence, income gaps, and inequality indicators, the project highlights how economic restructuring, welfare reforms, and policy choices have shaped deprivation over five decades. The analysis situates UK poverty within a global context and provides a foundation for comparative and policy-relevant insights.
 ##
 Data Source
@@ -45,14 +44,20 @@ The PIP dataset provides harmonized poverty and inequality measures across count
 - Lower middle income: $3.65/day, poverty lines
 - Upper-middle income: $6.85/day poverty lines).
 
-The dataset provides consistent time-series data (1967 – present) allowing tracking of decades of poverty dynamics
+The dataset provides consistent time-series data (1967 – present) allowing tracking of decades of poverty dynamics.
 
 For the UK this is especially important since extreme poverty (international line) is rare, but relative poverty remains an issue
-In a high-income country like the UK, the upper-middle income poverty line ($6.85/day) is the most appropriate one to review  
+In a high-income country like the UK, the upper-middle income poverty line ($6.85/day) is the most appropriate one to review.  
 
 <img width="553" height="340" alt="image" src="https://github.com/user-attachments/assets/9e613e6a-19e8-424c-96d5-fb68c7397d5b" />
 
 _______________________________________
+## Understanding the PIP Dataset
+The World Bank’s PIP dataset contains two harmonized poverty series, one based on 2011 PPP and one on 2017 PPP. 
+Both use the same international poverty lines ($2.15, $3.65, and $6.85/day), but the conversion factors differ.  
+The 2017 PPP series provides the most up-to-date global comparability. 
+Thus for this project, the 2017 PPP series is used as the reference, as it reflects the latest international calibration.
+
 ## Project Management
 To ensure the success delivery of this project, a Trello was created:
 https://trello.com/b/R80xkarD/first-project
@@ -136,6 +141,7 @@ ________________________________________
 | 👤 Author   | *Your Name*                                  |
 | 📧 Email    | [your@email.com](mailto:your@email.com)      |
 | 💻 GitHub   | [github.com/yourusername](https://github.com/yourusername) |
+
 
 
 
