@@ -58,6 +58,9 @@ Both use the same international poverty lines ($2.15, $3.65, and $6.85/day), but
 The 2017 PPP series provides the most up-to-date global comparability. 
 Thus for this project, the 2017 PPP series is used as the reference, as it reflects the latest international calibration.
 
+## PIP Codebook
+A list of all variables/features included in the datafile.
+
 ## Project Management
 To ensure the success delivery of this project, a Trello was created:
 https://trello.com/b/R80xkarD/first-project
@@ -141,6 +144,7 @@ ________________________________________
 | 👤 Author   | *Your Name*                                  |
 | 📧 Email    | [your@email.com](mailto:your@email.com)      |
 | 💻 GitHub   | [github.com/yourusername](https://github.com/yourusername) |
+
 
 
 
