@@ -52,7 +52,12 @@ In a high-income country like the UK, the upper-middle income poverty line ($6.8
 
 <img width="553" height="340" alt="image" src="https://github.com/user-attachments/assets/9e613e6a-19e8-424c-96d5-fb68c7397d5b" />
 
-________________________________________
+_______________________________________
+## Project Management
+To ensure the success delivery of this project, Trello was used.
+
+
+
 ## Features
 
 | Feature # | Description              | Status   | Link |
@@ -131,6 +136,7 @@ ________________________________________
 | 👤 Author   | *Your Name*                                  |
 | 📧 Email    | [your@email.com](mailto:your@email.com)      |
 | 💻 GitHub   | [github.com/yourusername](https://github.com/yourusername) |
+
 
 
 
