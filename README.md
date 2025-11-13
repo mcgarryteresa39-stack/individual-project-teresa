@@ -1,6 +1,5 @@
-﻿# Project Title
-**UK Poverty and Inequality Trends (1969 - 2017): Insights from the World Bank PIP Dataset**
-<img width="397" height="102" alt="image" src="https://github.com/user-attachments/assets/418ce46c-cf9a-4be5-b7ef-1293b7976da0" />oject-teresa
+### **UK Poverty and Inequality Trends (1969 - 2017): Insights from the World Bank PIP Dataset**
+<img width="397" height="102" alt="image" src="https://github.com/user-attachments/assets/418ce46c-cf9a-4be5-b7ef-1293b7976da0" />
 
 ## Table of Contents UPDATE
   
@@ -12,8 +11,7 @@ This project analyzes poverty and inequality trends in the United Kingdom betwee
 **Data Source**
 The World Bank Poverty and Inequality Platform (PIP) Dataset:
 - URL: https://pip.worldbank.org/home
-<img width="607" height="81" alt="image" src="https://github.com/user-attachments/assets/4c13d1b3-7ea6-406e-a25a-70bc043fe198" />
-- https://github.com/worldbank/pip
+- GitHub: https://github.com/worldbank/pip
 ##
 **The PIP Dataset Explained**
 The PIP dataset provides harmonized poverty and inequality measures across countries and time. Using it ensures that UK trends can be benchmarked against:
@@ -147,6 +145,7 @@ ________________________________________
 | 👤 Author   | *Teresa McGarry*                                  |
 | 📧 Email    | [teresa_mcgarry@hotmail.com)      |
 | 💻 GitHub   | xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx |
+
 
 
 
