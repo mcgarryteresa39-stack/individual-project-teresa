@@ -48,20 +48,16 @@ Thus for this project, the 2017 PPP series is used as the reference, as it refle
 ## **PIP Codebook**
 A list of all variables/features included in the datafile. 
 The key ones for this project are:
-- **headcount_ratio_international_povline**,% of population living in households with an income or expenditure per person below the International Poverty Line: $1.90 a day (in 2011 prices) or $2.15 a day (in 2017 prices).
-- **headcount_ratio_lower_mid_income_povline**,% of population living in households with an income or expenditure per person below the lower-middle income poverty line: $3.20 a day (in 2011 prices) or $3.65 a day (in 2017 prices).
-- **headcount_ratio_upper_mid_income_povline**,% of population living in households with an income or expenditure per person below the upper-middle income poverty line: $5.50 a day (in 2011 prices) or $6.85 a day (in 2017 prices).
-- headcount_international_povline,Number of people living in households with an income or expenditure per person below the International Poverty Line: $1.90 a day (in 2011 prices) or $2.15 a day (in 2017 prices).
-- headcount_lower_mid_income_povline,Number of people living in households with an income or expenditure per person below the lower-middle income poverty line: $3.20 a day (in 2011 prices) or $3.65 a day (in 2017 prices).
-- headcount_upper_mid_income_povline,Number of people living in households with an income or expenditure per person below the upper-middle income poverty line: $5.50 a day (in 2011 prices) or $6.85 a day (in 2017 prices).
-- avg_shortfall_international_povline,The average shortfall from the International Poverty Line per day (averaged across the population in poverty). The International Poverty Line is $1.90 a day (in 2011 prices) or $2.15 a day (in 2017 prices).
-- avg_shortfall_lower_mid_income_povline,The average shortfall from the lower-middle income poverty line (averaged across the population in poverty). The lower-middle income poverty line is $3.20 a day (in 2011 prices) or $3.65 a day (in 2017 prices).
-- avg_shortfall_upper_mid_income_povline,The average shortfall from the upper-middle income poverty line (averaged across the population in poverty). The upper-middle poverty line is $5.50 a day (in 2011 prices) or $6.85 a day (in 2017 prices).
-- total_shortfall_international_povline,"The total shortfall from the International Poverty Line: $1.90 a day (in 2011 prices) or $2.15 a day (in 2017 prices).
-xxxxxxx
-
-
-
+- **Mean**
+- **Median**
+- **Palma Index/Ratio**
+- **Polarization**
+- **Gini Index**
+- **MLD(Mean Log Derivation)**
+- **Income Gap Ratio**
+- **Average Income Shortfall**
+- **Headcount ratio**
+- **Poverty Gap Index** 
 
 ## **Project Management**
 To ensure the success delivery of this project, a Trello was created:
@@ -151,6 +147,7 @@ ________________________________________
 | 👤 Author   | *Teresa McGarry*                                  |
 | 📧 Email    | [teresa_mcgarry@hotmail.com)      |
 | 💻 GitHub   | xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx |
+
 
 
 
