@@ -1,7 +1,7 @@
 # *UK Poverty and Inequality Trends (1969 - 2017): Insights from the World Bank PIP Dataset* #
 _______________________________________
 ## **Project Background**
-This project analyzes poverty and inequality trends in the United Kingdom between 1969 and 2017 using data from the **World Bank’s Poverty and Inequality Platform (PIP)**. It explores changes in poverty ratios across multiple international poverty lines ($2.15, $3.65, and $6.85 per day), with a particular focus on the upper-middle income threshold, which offers the most relevant benchmark for high-income countries like the UK. 
+This project analyses poverty and inequality trends in the United Kingdom between 1969 and 2017 using data from the **World Bank’s Poverty and Inequality Platform (PIP)**. It explores changes in poverty ratios across multiple international poverty lines ($2.15, $3.65, and $6.85 per day), with a particular focus on the upper-middle income threshold, which offers the most relevant benchmark for high-income countries like the UK. 
 _______________________________________
 ## **Data Source**
 The World Bank Poverty and Inequality Platform (PIP) Dataset:
@@ -25,26 +25,26 @@ In a high-income country like the UK, the **upper-middle income poverty line ($6
 The World Bank’s PIP dataset contains two harmonized poverty series, one based on 2011 PPP and one on 2017 PPP. Both use the same international poverty lines ($2.15, $3.65, and $6.85/day), but the conversion factors differ.  The 2017 PPP series provides the most up-to-date global comparability. Thus for this project, the 2017 PPP series is used as the reference, as it reflects the latest international calibration.
 
 ## **2 The PIP Codebook**
-A list of all 108 variables/features included in the datafile are available in the PIP codebook. 
+A list of all 108 features included in the datafile are available in the PIP codebook. 
 
-The variables/features fall into 2 classifications: **Inequality** and **Poverty**.
+The features fall into 2 classifications: **Inequality** and **Poverty**.
 
 The key ones for this project are:
 
 **Inequality:**
 
-- **Mean**: The mean level of income or expenditure per day.
-- **Median**The level of income or expenditure per day below which half of the population live.
-- **Gini Index**: A measure of income or wealth inequality within a population. It tells you how evenly income or consumption is distributed across the entire income distribution.
-- **Palma Index/Ratio**A measure of income inequality that compares the richest 10% to the poorest 40% of a population. It was developed as an alternative to the Gini coefficient, aiming to better capture disparities at the extremes of the income distribution.
-- **Polarization**: The growing divide between high-income and low-income groups, often accompanied by the shrinking of the middle class. It’s a key concept in understanding inequality trends, especially in advanced and globalizing economies.
-- **MLD(Mean Log Derivation)**: A measure of income inequality that emphasises disparities at the lower end of the income distribution. It’s part of the generalised entropy class of inequality metrics and is especially sensitive to changes among the poorest.
+- **Mean:** The mean level of income or expenditure per day.
+- **Median:** The level of income or expenditure per day below which half of the population live.
+- **Gini Index:** A measure of income or wealth inequality within a population. It tells you how evenly income or consumption is distributed across the entire income distribution.
+- **Palma Index/Ratio:** A measure of income inequality that compares the richest 10% to the poorest 40% of a population. It was developed as an alternative to the Gini coefficient, aiming to better capture disparities at the extremes of the income distribution.
+- **Polarization:** The growing divide between high-income and low-income groups, often accompanied by the shrinking of the middle class. It’s a key concept in understanding inequality trends, especially in advanced and globalizing economies.
+- **MLD(Mean Log Derivation):** A measure of income inequality that emphasises disparities at the lower end of the income distribution. It’s part of the generalised entropy class of inequality metrics and is especially sensitive to changes among the poorest.
 
 **Poverty:**
-- **Income Gap Ratio**: The mean shortfall in income or consumption from the poverty line, expressed as a percentage of the poverty line, counting the non-poor as having zero shortfall.
-- **Average Income Shortfall**: The average shortfall from the International Poverty Line per day (averaged across population in poverty).
+- **Income Gap Ratio:** The mean shortfall in income or consumption from the poverty line, expressed as a percentage of the poverty line, counting the non-poor as having zero shortfall.
+- **Average Income Shortfall:** The average shortfall from the International Poverty Line per day (averaged across population in poverty).
 - **Headcount ratio**: % of population living in households with an income or expenditure per person below the International Poverty Line ($2.15 a day in 2017 prices) i.e. how many people are poor.
-- **Poverty Gap Index**: The depth of poverty by calculating how far below the poverty line poor individuals fall, on average, expressed as a percentage of that line. It complements the poverty headcount ratio by showing not just how many are poor, but how poor they are
+- **Poverty Gap Index:** The depth of poverty by calculating how far below the poverty line poor individuals fall, on average, expressed as a percentage of that line. It complements the poverty headcount ratio by showing not just how many are poor, but how poor they are
 _______________________________________
 ## **3. Motivation for choosing the PIP Dataset and specifically focusing on the UK as a case study** ##
 - The World Bank’s PIP dataset offers a validated, respected, and globally harmonized perspective on poverty and inequality, covering 170+ countries across 50 years.
@@ -183,7 +183,7 @@ Again, the upper-middle income poverty line shows the biggest increase over time
 
 <img width="700" height="450" alt="image" src="https://github.com/user-attachments/assets/fee1ddf0-b097-4128-a7e5-a6e9783c9548" />
 
-**Headcount ratio:**
+**Headcount Ratio:**
 
 While fluctuations exist throughout the years, extreme poverty shows an increase over time.
 
@@ -212,13 +212,29 @@ Broaden the research scope by:
 -	Make the presentation slide deck reproducible:
   - Create a slide deck that can be a template for further analysis with other countries or regions
 _______________________________________
+## **Project Managment**
+
+I created a detailed Trello Board to help guide the analysis process.
+
+<img width="700" height="450" alt="image" src="https://github.com/user-attachments/assets/1f30dc10-3027-4b75-97c0-c19dd6429182" />
+
+link: https://trello.com/b/R80xkarD/tm-individual-project
+______________________________________
+
 ## **Libraries needed to create visualisations**
+
 import pandas as pd
+
 import numpy as np
+
 import matplotlib.pyplot as plt
+
 import seaborn as sns
+
 import plotly.express as px
+
 plt.style.use('ggplot')
+
 sns.set_theme()
 
 ## **Get in Touch**
@@ -227,7 +243,8 @@ sns.set_theme()
 |------------|----------------------------------------------|
 | 👤 Author   | *Teresa McGarry*                                  |
 | 📧 Email    | [teresa_mcgarry@hotmail.com)      |
-| 💻 GitHub   | xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx |
+| 💻 GitHub   | mcgarryteresa39-stack/individual-project-teresa  |
+
 
 
 
