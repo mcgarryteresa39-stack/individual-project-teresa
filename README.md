@@ -135,7 +135,7 @@ _______________________________________
 -	Relative poverty measures (e.g. Income Gap Ratio, Average Income Shortfall) show a steady upward trend, with sharp peaks around the early 2000s.
 -	More concerning, extreme poverty (Headcount Ratio at the international poverty line) shows a slight increase over time, while the Poverty Gap Index reveals deeper and more persistent deprivation.
 _______________________________________
-## **Findings**
+## **Key Findings**
 
 ## **Inequality Measures**
 
@@ -244,6 +244,7 @@ sns.set_theme()
 | 👤 Author   | *Teresa McGarry*                                  |
 | 📧 Email    | [teresa_mcgarry@hotmail.com)      |
 | 💻 GitHub   | mcgarryteresa39-stack/individual-project-teresa  |
+
 
 
 
