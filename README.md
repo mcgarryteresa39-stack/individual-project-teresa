@@ -135,13 +135,15 @@ _______________________________________
 -	Relative poverty measures (e.g. Income Gap Ratio, Average Income Shortfall) show a steady upward trend, with sharp peaks around the early 2000s.
 -	More concerning, extreme poverty (Headcount Ratio at the international poverty line) shows a slight increase over time, while the Poverty Gap Index reveals deeper and more persistent deprivation.
 _______________________________________
-## **Poverty Findings**
+## **Findings**
+
+## **Inequality Measures**
 
 **Mean and Median:** 
 
 The consistently higher Mean implies rising inequality among the poor i.e. the poorest became much poorer. 3 of the 5 largest (mean-median) gaps occur** between 2000-2003  
 
-<img width="700" height="450" alt="image" src="https://github.com/user-attachments/assets/193f8572-f7c0-46b9-a0fc-dc570a11d460" />
+<img width="700" height="450" alt="image" src="https://github.com/user-attachments/assets/55bb377e-c048-4d47-9593-628de0bc527e" />
 
 **Palma Ratio and Gini Index:**
 
@@ -155,8 +157,45 @@ Both measures show that income inequality has risen modestly over time.
 
 <img width="700" height="450" alt="image" src="https://github.com/user-attachments/assets/1c8c2685-26a7-40c3-8722-f8044c614261" />
 
+**Polarization:** 
 
+While there is only a modest positive trend when comparing 1969 to 2017, there is a lot of fluctuation evident over this timeline.
 
+<img width="700" height="450" alt="image" src="https://github.com/user-attachments/assets/026fad0f-6eb0-453c-870a-e1ebff3f0fc3" />
+
+**MLD:**
+
+A slightly stronger positive relationship between time and inequality, with a further consistent upward trend in inequality.
+
+<img width="700" height="450" alt="image" src="https://github.com/user-attachments/assets/f6b87cd4-f589-4053-8139-616b5c9fbbca" />
+
+## **Poverty Measures**
+
+**Income Gap Ratio:**
+
+Whilst each poverty measure shows a persistent incline over time, the upper-middle income poverty line shows the largest increase.
+
+<img width="700" height="450" alt="image" src="https://github.com/user-attachments/assets/2a311912-323f-4d37-b17f-e9e842001096" />
+
+**Average Income Shortfall:**
+
+Again, the upper-middle income poverty line shows the biggest increase over time. There are notable spikes in each measure in 2000.
+
+<img width="700" height="450" alt="image" src="https://github.com/user-attachments/assets/fee1ddf0-b097-4128-a7e5-a6e9783c9548" />
+
+**Headcount ratio:**
+
+While fluctuations exist throughout the years, extreme poverty shows an increase over time.
+
+<img width="700" height="450" alt="image" src="https://github.com/user-attachments/assets/da8c84fe-b15c-4d71-a319-7e04796a8105" />
+
+**Poverty Gap Index:**
+
+Extreme poverty is rare and stable. The upper-middle income line started high in 1969 but over time exposes deeper and more persistent deprivation. All lines show a peak in 1986.
+
+<img width="700" height="450" alt="image" src="https://github.com/user-attachments/assets/56404698-3032-4cb0-8ac6-f27f2dd13444" />
+
+_______________________________________
 ## **Recommendations for further research** ##
 Broaden the research scope by:
 
@@ -173,6 +212,15 @@ Broaden the research scope by:
 -	Make the presentation slide deck reproducible:
   - Create a slide deck that can be a template for further analysis with other countries or regions
 _______________________________________
+## **Libraries needed to create visualisations**
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+import plotly.express as px
+plt.style.use('ggplot')
+sns.set_theme()
+
 ## **Get in Touch**
 
 | 📌 Detail   | 📎 Info                                      |
@@ -180,6 +228,7 @@ _______________________________________
 | 👤 Author   | *Teresa McGarry*                                  |
 | 📧 Email    | [teresa_mcgarry@hotmail.com)      |
 | 💻 GitHub   | xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx |
+
 
 
 
