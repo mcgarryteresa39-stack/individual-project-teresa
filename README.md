@@ -8,10 +8,12 @@ The World Bank Poverty and Inequality Platform (PIP) Dataset:
 - URL: https://pip.worldbank.org/home
 - GitHub: https://github.com/worldbank/pip
 _______________________________________
-## **The PIP Dataset and Associated Resources Explained** ##
+## **The Project Context** ##
 
 ## **1. The PIP Dataset** ##
-The PIP dataset provides consistent time-series data allowing tracking of decades of poverty dynamics across countries and time (1967 - present). For the UK the data spans 1969 - 2017.
+The PIP dataset provides consistent time-series data allowing tracking of decades of poverty dynamics across countries and time (1967 - present). For the UK the data spans 1969 - 2017. There is sparse coverage in the 1970s and 1980s. From 1994 there is fairly consistent annual reporting.
+
+<img width="700" height="450" alt="image" src="https://github.com/user-attachments/assets/981cf5ee-2c75-4c81-8772-b84ed9f8b11a" />
 
 The dataset provides harmonized poverty and inequality measures. Using it ensures that UK trends can be benchmarked against:
 - International income standards: $2.15/day, poverty lines
@@ -44,7 +46,7 @@ The key ones for this project are:
 - **Headcount ratio**: % of population living in households with an income or expenditure per person below the International Poverty Line ($2.15 a day in 2017 prices) i.e. how many people are poor.
 - **Poverty Gap Index**: The depth of poverty by calculating how far below the poverty line poor individuals fall, on average, expressed as a percentage of that line. It complements the poverty headcount ratio by showing not just how many are poor, but how poor they are
 _______________________________________
-## **Motivation for choosing the PIP Dataset and specifically focusing on the UK as a case study** ##
+## **3. Motivation for choosing the PIP Dataset and specifically focusing on the UK as a case study** ##
 - The World Bank’s PIP dataset offers a validated, respected, and globally harmonized perspective on poverty and inequality, covering 170+ countries across 50 years.
 
 - Its sheer volume makes it ideal for comparative analysis, but also demands strategic scoping.
@@ -61,10 +63,10 @@ _______________________________________
     - 	Validate outputs for plausibility and consistency.
   
     - 	Develop and polish visualizations for clarity and audience impact.
+_______________________________________
+## **4. Initial goal and project adaptation**
 
-## **Initial goal and project adaptation##**
-
-**Initial goal:**
+**Initial goal**
 
 My initial goal was to use the full World Bank PIP dataset to explore poverty and inequality worldwide
 
@@ -74,7 +76,7 @@ I aimed to answer:
  
 I had also planned to integrate GDP data for economic context.
 
-**Early Challenges:**
+**Early Challenges**
 
 - Both datasets were large and conceptually challenging
 - The creation of visualisations raised doubts, namely I wasn’t confident the results produced were accurate and correct
@@ -87,42 +89,41 @@ I decided to “chunk” the dataset and focus solely on the United Kingdom whic
 - A sandbox for learning the concepts involved in the PIP dataset and troubleshooting
 - A way to easily validate outputs before scaling up
 - Confidence that the data was accurate and explainable by cross-checking with the equivalent Excel dataset
+_______________________________________
+## **5. Project Reflection**
 
-**Project Reflection**
-**Spend (a lot of) time choosing and reviewing a dataset that:**
-
+**1. Spend (a lot of) time choosing and reviewing a dataset that:**
 - Intrigues you: you genuinely want to uncover what it reveals about the world
 - Has concepts you can understand and explain clearly
 - Offers sufficient features and observations for valid and insightful analysis
-- Allows you to cross-check and validate any new variables you create
+- Allows you to cross-check and validate any new features you create
 
-**Start with a manageable scope:**
+**2. Start with a manageable scope:**
 - Begin with a single country or region to build confidence before scaling globally
 - Use case studies to test your workflow and refine your approach
   
-**Validate at every step:**
+**3. Validate at every step:**
 
-•	Cross-check outputs against trusted sources (e.g., Excel, documentation)
-•	Use plausibility checks to catch errors early
+- Cross-check outputs against trusted sources (e.g., Excel, documentation)
+- Use plausibility checks to catch potential errors early
 
-**Build reusable resources:**
+**4. Build reusable resources:**
 
-- Create region mapping dictionaries, plotting functions, and validation steps that can be reused across countries
+- Create region mapping dictionaries, plotting functions, and validation steps that can be reused e.g. across other countries
 - Document your logic so others (or future you) can follow it
 
-**Visualize with clarity and purpose:**
+**5. Visualize with clarity and purpose:**
 
 - Be clear about what you want to say with the data
 - Customize plots for clarity, ordering, and audience impact
 - Annotate key trends to make findings accessible and compelling
 
-**Reflect and adapt:**
+**6. Reflect and adapt:**
 
-Be willing to pivot your project scope when complexity arises
-Treat challenges as learning opportunities to strengthen your analytical workflow
-<img width="1926" height="633" alt="image" src="https://github.com/user-attachments/assets/b1278433-8d29-4f28-a4ef-82811b575eda" />
-
-
+- Be willing to pivot your project scope when complexity arises
+- Treat challenges as learning opportunities to strengthen your analytical workflow
+_______________________________________
+## **UK Poverty and Inequality Trends (1969 - 2017): Insights from the World Bank PIP Dataset** ##
 ## **Project Conclusions**
 **Key Takeaways from the UK PIP Dataset Survey Trends (1969-2017)**
 
@@ -134,12 +135,35 @@ Treat challenges as learning opportunities to strengthen your analytical workflo
 -	Relative poverty measures (e.g. Income Gap Ratio, Average Income Shortfall) show a steady upward trend, with sharp peaks around the early 2000s.
 -	More concerning, extreme poverty (Headcount Ratio at the international poverty line) shows a slight increase over time, while the Poverty Gap Index reveals deeper and more persistent deprivation.
 _______________________________________
+## **Poverty Findings**
+
+**Mean and Median:** 
+
+The consistently higher Mean implies rising inequality among the poor i.e. the poorest became much poorer. 3 of the 5 largest (mean-median) gaps occur** between 2000-2003  
+
+<img width="700" height="450" alt="image" src="https://github.com/user-attachments/assets/193f8572-f7c0-46b9-a0fc-dc570a11d460" />
+
+**Palma Ratio and Gini Index:**
+
+There is a strong positive correlation between these two inequality measures.
+
+<img width="700" height="450" alt="image" src="https://github.com/user-attachments/assets/ff5b828a-cb54-476d-a386-da9b164a4526" />
+
+**Palma Ratio and Gini Index:**
+
+Both measures show that income inequality has risen modestly over time.
+
+<img width="700" height="450" alt="image" src="https://github.com/user-attachments/assets/1c8c2685-26a7-40c3-8722-f8044c614261" />
+
+
+
 ## **Recommendations for further research** ##
 Broaden the research scope by:
--	Comparing the UK with:
+
+- Comparing the UK with:
     
- -  Other high-income countries or Western Europe
- -  Use built in regional aggregates e.g. “World” and “High Income” or create new aggregate variables to deepen analysis
+  -  Other high-income countries or Western Europe
+  -  Use built in regional aggregates e.g. “World” and “High Income” or create new aggregate variables to deepen analysis
     
 - Make the analysis reproducible:
   
@@ -149,70 +173,6 @@ Broaden the research scope by:
 -	Make the presentation slide deck reproducible:
   - Create a slide deck that can be a template for further analysis with other countries or regions
 _______________________________________
-##**Project Reflection** 
-
-**Initial goal and project adaptation**
-
-My initial goal was to use the full World Bank PIP dataset to explore poverty and inequality worldwide
-
-I aimed to answer:
-- Which countries and regions are most affected?
-- Who has improved or worsened over time?
- 
-I had also planned to integrate GDP data for economic context.
-
-**Early Challenges:**
-
-- Both datasets were large and conceptually challenging
-- The creation of visualisations raised doubts, namely I wasn’t confident the results produced were accurate and correct
-- My limited subject knowledge made interpretation difficult
-
-**Project pivoting**
-
-I decided to “chunk” the dataset and focus solely on the United Kingdom which offered:
-- A manageable scope
-- A sandbox for learning the concepts involved in the PIP dataset and troubleshooting
-- A way to easily validate outputs before scaling up
-- Confidence that the data was accurate and explainable by cross-checking with the equivalent Excel dataset
-
-**Project Reflection**
-**Spend (a lot of) time choosing and reviewing a dataset that:**
-
-- Intrigues you: you genuinely want to uncover what it reveals about the world
-- Has concepts you can understand and explain clearly
-- Offers sufficient features and observations for valid and insightful analysis
-- Allows you to cross-check and validate any new variables you create
-
-**Start with a manageable scope:**
-- Begin with a single country or region to build confidence before scaling globally
-- Use case studies to test your workflow and refine your approach
-  
-**Validate at every step:**
-
-•	Cross-check outputs against trusted sources (e.g., Excel, documentation)
-•	Use plausibility checks to catch errors early
-
-**Build reusable resources:**
-
-- Create region mapping dictionaries, plotting functions, and validation steps that can be reused across countries
-- Document your logic so others (or future you) can follow it
-
-**Visualize with clarity and purpose:**
-
-- Be clear about what you want to say with the data
-- Customize plots for clarity, ordering, and audience impact
-- Annotate key trends to make findings accessible and compelling
-
-**Reflect and adapt:**
-
-Be willing to pivot your project scope when complexity arises
-Treat challenges as learning opportunities to strengthen your analytical workflow
-<img width="1926" height="633" alt="image" src="https://github.com/user-attachments/assets/b1278433-8d29-4f28-a4ef-82811b575eda" />
-
-## **Project Management**
-To ensure the success delivery of this project, a Trello board was created:
-https://trello.com/b/R80xkarD/first-project
-
 ## **Get in Touch**
 
 | 📌 Detail   | 📎 Info                                      |
@@ -220,6 +180,7 @@ https://trello.com/b/R80xkarD/first-project
 | 👤 Author   | *Teresa McGarry*                                  |
 | 📧 Email    | [teresa_mcgarry@hotmail.com)      |
 | 💻 GitHub   | xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx |
+
 
 
 
