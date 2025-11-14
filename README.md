@@ -11,7 +11,7 @@ _______________________________________
 ## **The PIP Dataset and Associated Resources Explained** ##
 
 ## **1. The PIP Dataset** ##
-The PIP dataset provides consistent time-series data allowing tracking of decades of poverty dynamics across countries and time (1967 - present).
+The PIP dataset provides consistent time-series data allowing tracking of decades of poverty dynamics across countries and time (1967 - present). For the UK the data spans 1969 - 2017.
 
 The dataset provides harmonized poverty and inequality measures. Using it ensures that UK trends can be benchmarked against:
 - International income standards: $2.15/day, poverty lines
@@ -28,7 +28,9 @@ A list of all 108 variables/features included in the datafile are available in t
 The variables/features fall into 2 classifications: **Inequality** and **Poverty**.
 
 The key ones for this project are:
+
 **Inequality:**
+
 - **Mean**: The mean level of income or expenditure per day.
 - **Median**The level of income or expenditure per day below which half of the population live.
 - **Gini Index**: A measure of income or wealth inequality within a population. It tells you how evenly income or consumption is distributed across the entire income distribution.
@@ -47,10 +49,10 @@ _______________________________________
 
 - Its sheer volume makes it ideal for comparative analysis, but also demands strategic scoping.
 
-- Focusing exclusively on the United Kingdom provided two key advantages:
+- Focusing exclusively on the United Kingdom provides two key advantages:
 
-  - It enabled an in-depth exploration of inequality and poverty in a single region without being overwhelmed by global complexity.
-  - It offered a sandbox environment to:
+  - It enables an in-depth exploration of inequality and poverty in a single region without being overwhelmed by global complexity.
+  - It offers a sandbox environment to:
 
     - 	Understand the dataset’s structure, variables, and features before scaling up.
   
@@ -153,6 +155,7 @@ https://trello.com/b/R80xkarD/first-project
 | 👤 Author   | *Teresa McGarry*                                  |
 | 📧 Email    | [teresa_mcgarry@hotmail.com)      |
 | 💻 GitHub   | xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx |
+
 
 
 
