@@ -5,7 +5,7 @@ This project analyses poverty and inequality trends in the United Kingdom betwee
 _______________________________________
 ## **Data Source**
 The World Bank Poverty and Inequality Platform (PIP) Dataset:
-- URL: https://pip.worldbank.org/home
+- URL: https://pip.worldbank.org/home OR https://github.com/owid/poverty-data?tab=readme-ov-file
 - GitHub: https://github.com/worldbank/pip
 _______________________________________
 ## **The Project Context** ##
@@ -244,6 +244,7 @@ sns.set_theme()
 | 👤 Author   | *Teresa McGarry*                                  |
 | 📧 Email    | [teresa_mcgarry@hotmail.com)      |
 | 💻 GitHub   | mcgarryteresa39-stack/individual-project-teresa  |
+
 
 
 
