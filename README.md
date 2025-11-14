@@ -1,6 +1,6 @@
 # *UK Poverty and Inequality Trends (1969 - 2017): Insights from the World Bank PIP Dataset* #
 _______________________________________
-## **About the Project**
+## **Project Background**
 This project analyzes poverty and inequality trends in the United Kingdom between 1969 and 2017 using data from the **World Bank’s Poverty and Inequality Platform (PIP)**. It explores changes in poverty ratios across multiple international poverty lines ($2.15, $3.65, and $6.85 per day), with a particular focus on the upper-middle income threshold, which offers the most relevant benchmark for high-income countries like the UK. 
 _______________________________________
 ## **Data Source**
@@ -62,7 +62,68 @@ _______________________________________
   
     - 	Develop and polish visualizations for clarity and audience impact.
 
-## ***Conclusions**
+## **Initial goal and project adaptation##**
+
+**Initial goal:**
+
+My initial goal was to use the full World Bank PIP dataset to explore poverty and inequality worldwide
+
+I aimed to answer:
+- Which countries and regions are most affected?
+- Who has improved or worsened over time?
+ 
+I had also planned to integrate GDP data for economic context.
+
+**Early Challenges:**
+
+- Both datasets were large and conceptually challenging
+- The creation of visualisations raised doubts, namely I wasn’t confident the results produced were accurate and correct
+- My limited subject knowledge made interpretation difficult
+
+**Project pivoting**
+
+I decided to “chunk” the dataset and focus solely on the United Kingdom which offered:
+- A manageable scope
+- A sandbox for learning the concepts involved in the PIP dataset and troubleshooting
+- A way to easily validate outputs before scaling up
+- Confidence that the data was accurate and explainable by cross-checking with the equivalent Excel dataset
+
+**Project Reflection**
+**Spend (a lot of) time choosing and reviewing a dataset that:**
+
+- Intrigues you: you genuinely want to uncover what it reveals about the world
+- Has concepts you can understand and explain clearly
+- Offers sufficient features and observations for valid and insightful analysis
+- Allows you to cross-check and validate any new variables you create
+
+**Start with a manageable scope:**
+- Begin with a single country or region to build confidence before scaling globally
+- Use case studies to test your workflow and refine your approach
+  
+**Validate at every step:**
+
+•	Cross-check outputs against trusted sources (e.g., Excel, documentation)
+•	Use plausibility checks to catch errors early
+
+**Build reusable resources:**
+
+- Create region mapping dictionaries, plotting functions, and validation steps that can be reused across countries
+- Document your logic so others (or future you) can follow it
+
+**Visualize with clarity and purpose:**
+
+- Be clear about what you want to say with the data
+- Customize plots for clarity, ordering, and audience impact
+- Annotate key trends to make findings accessible and compelling
+
+**Reflect and adapt:**
+
+Be willing to pivot your project scope when complexity arises
+Treat challenges as learning opportunities to strengthen your analytical workflow
+<img width="1926" height="633" alt="image" src="https://github.com/user-attachments/assets/b1278433-8d29-4f28-a4ef-82811b575eda" />
+
+
+## **Project Conclusions**
 **Key Takeaways from the UK PIP Dataset Survey Trends (1969-2017)**
 
 **Inequality:**
@@ -73,20 +134,24 @@ _______________________________________
 -	Relative poverty measures (e.g. Income Gap Ratio, Average Income Shortfall) show a steady upward trend, with sharp peaks around the early 2000s.
 -	More concerning, extreme poverty (Headcount Ratio at the international poverty line) shows a slight increase over time, while the Poverty Gap Index reveals deeper and more persistent deprivation.
 _______________________________________
-## ** Recommendations for further research** ##
+## **Recommendations for further research** ##
 Broaden the research scope by:
 -	Comparing the UK with:
-  -	Other high-income countries or Western Europe
-  - Use built in regional aggregates e.g. “World” and “High Income” or create new aggregate variables to deepen analysis
-  -  Make the analysis reproducible:
--  Build reusable region mapping dictionaries so that any country can be swiftly analysed
+    
+ -  Other high-income countries or Western Europe
+ -  Use built in regional aggregates e.g. “World” and “High Income” or create new aggregate variables to deepen analysis
+    
+- Make the analysis reproducible:
+  
+  -  Build reusable region mapping dictionaries so that any country can be swiftly analysed
   - Create reusable functions for analysis and visualization for other countries
-  -	Make the presentation slide deck reproducible:
+   
+-	Make the presentation slide deck reproducible:
   - Create a slide deck that can be a template for further analysis with other countries or regions
 _______________________________________
-##**Initial goal and project adaptation##**
+##**Project Reflection** 
 
-**Initial goal:**
+**Initial goal and project adaptation**
 
 My initial goal was to use the full World Bank PIP dataset to explore poverty and inequality worldwide
 
@@ -155,6 +220,7 @@ https://trello.com/b/R80xkarD/first-project
 | 👤 Author   | *Teresa McGarry*                                  |
 | 📧 Email    | [teresa_mcgarry@hotmail.com)      |
 | 💻 GitHub   | xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx |
+
 
 
 
