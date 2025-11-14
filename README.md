@@ -5,7 +5,7 @@ This project analyses poverty and inequality trends in the United Kingdom betwee
 _______________________________________
 ## **Data Source**
 The World Bank Poverty and Inequality Platform (PIP) Dataset:
-- URL: https://pip.worldbank.org/home OR https://github.com/owid/poverty-data?tab=readme-ov-file
+- URL: https://pip.worldbank.org/home OR https://github.com/owid/poverty-data?tab=readme-ov-file [README file and select the appropriate file format for download i.e. CSV or XLSX format]
 - GitHub: https://github.com/worldbank/pip
 _______________________________________
 ## **The Project Context** ##
@@ -64,9 +64,9 @@ _______________________________________
   
     - 	Develop and polish visualizations for clarity and audience impact.
 _______________________________________
-## **4. Initial goal and project adaptation**
+## **4. Initial Goal and Project Adaptation**
 
-**Initial goal**
+**Initial Goal**
 
 My initial goal was to use the full World Bank PIP dataset to explore poverty and inequality worldwide
 
@@ -82,7 +82,7 @@ I had also planned to integrate GDP data for economic context.
 - The creation of visualisations raised doubts, namely I wasn’t confident the results produced were accurate and correct
 - My limited subject knowledge made interpretation difficult
 
-**Project pivoting**
+**Project Pivoting**
 
 I decided to “chunk” the dataset and focus solely on the United Kingdom which offered:
 - A manageable scope
@@ -244,6 +244,7 @@ sns.set_theme()
 | 👤 Author   | *Teresa McGarry*                                  |
 | 📧 Email    | [teresa_mcgarry@hotmail.com)      |
 | 💻 GitHub   | mcgarryteresa39-stack/individual-project-teresa  |
+
 
 
 
