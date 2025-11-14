@@ -218,7 +218,7 @@ I created a detailed Trello Board to help guide the analysis process.
 
 <img width="700" height="450" alt="image" src="https://github.com/user-attachments/assets/1f30dc10-3027-4b75-97c0-c19dd6429182" />
 
-link: https://trello.com/b/R80xkarD/tm-individual-project
+https://trello.com/b/R80xkarD/first-project
 ______________________________________
 
 ## **Libraries needed to create visualisations**
@@ -244,6 +244,7 @@ sns.set_theme()
 | 👤 Author   | *Teresa McGarry*                                  |
 | 📧 Email    | [teresa_mcgarry@hotmail.com)      |
 | 💻 GitHub   | mcgarryteresa39-stack/individual-project-teresa  |
+
 
 
 
