@@ -33,13 +33,13 @@ The key ones for this project are:
 - **Median**The level of income or expenditure per day below which half of the population live.
 - **Gini Index**: A measure of income or wealth inequality within a population. It tells you how evenly income or consumption is distributed across the entire income distribution.
 - **Palma Index/Ratio**A measure of income inequality that compares the richest 10% to the poorest 40% of a population. It was developed as an alternative to the Gini coefficient, aiming to better capture disparities at the extremes of the income distribution.
-- **Polarization**: 
-
-- **MLD(Mean Log Derivation)**
-- **Income Gap Ratio**
-- **Average Income Shortfall**
-- **Headcount ratio**
-- **Poverty Gap Index** 
+- **Polarization**: The growing divide between high-income and low-income groups, often accompanied by the shrinking of the middle class. It’s a key concept in understanding inequality trends, especially in advanced and globalizing economies.
+- **MLD(Mean Log Derivation)**: A measure of income inequality that emphasises disparities at the lower end of the income distribution. It’s part of the generalised entropy class of inequality metrics and is especially sensitive to changes among the poorest.
+Poverty:
+- **Income Gap Ratio**: The mean shortfall in income or consumption from the poverty line, expressed as a percentage of the poverty line, counting the non-poor as having zero shortfall.
+- **Average Income Shortfall**: The average shortfall from the International Poverty Line per day (averaged across population in poverty).
+- **Headcount ratio**: % of population living in households with an income or expenditure per person below the International Poverty Line ($2.15 a day in 2017 prices) i.e. how many people are poor.
+- **Poverty Gap Index**: The depth of poverty by calculating how far below the poverty line poor individuals fall, on average, expressed as a percentage of that line. It complements the poverty headcount ratio by showing not just how many are poor, but how poor they are
 
 ## **Project Management**
 To ensure the success delivery of this project, a Trello was created:
@@ -129,6 +129,7 @@ ________________________________________
 | 👤 Author   | *Teresa McGarry*                                  |
 | 📧 Email    | [teresa_mcgarry@hotmail.com)      |
 | 💻 GitHub   | xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx |
+
 
 
 
